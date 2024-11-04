@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Al-Mufti Family</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <header class="navbar">
+            <div class="logo">
+                <h3>Al-Mufti</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Family Tree</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Embed Location Map</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To Text">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+        </header>
+
+
+        <main class="content">
+            <section id="home">
+                <h2>Our Legacy</h2>
+                <p><br><br>The Al-Mufti family lineage traces back to the esteemed Islamic jurist and scholar, Jalal-ud-din, reverently known as "Mufti Sahib." Renowned for his profound knowledge and wisdom, Mufti Sahib was a sought-after authority on religious matters during the later years of the Mughal Empire. His interpretations and rulings were highly regarded and often relied upon by the rulers of the time.</p>
+                <p>A significant testament to his enduring legacy is the prominent shrine erected in his honor within the historic old graveyard, situated on the border between Muftian and Dina, running parallel to Rohtas Road. This sacred site serves as a pilgrimage destination for countless devotees who come to pay their respects and seek blessings from the revered scholar.</p>
+            </section>
+        
+            <section id="Family Tree">
+                <div class="shaj">
+                    <h2>Family Tree</h2><br>
+                    <p>To view the complete family tree, click on the button below.</p><br><br>
+                    <a href="shajra_baba_sb_after_correction[1].pdf" target="_blank" download>Download Family Tree PDF</a>
+                </div><br>
+            </section>  
+            
+            <section id="contact">
+                <h2>Contact Us</h2><br>
+                <div class="contact-info">
+                    <p><strong>Name: </strong>  Engr. Muhammad Ali Mian</p>
+                    <p><strong>Phone Number: </strong>  +92334-5416800</p>
+                    <p><strong>Address: </strong>Village Muftian City Dina Dist jhelum Province Punjab Pakistan</p>
+                </div>            
+            </section>
+        </main>
+        <br><br>
+        <section id="Embed Location Map">
+            <div class="container">
+                <h1>Embed Location Map</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d794.9340997805235!2d73.59834965961468!3d33.023361021270745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f8d2eb85b4c49%3A0x644c204970c162c1!2sDarbar%20Muftian!5e1!3m2!1sen!2s!4v1730727208375!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function searchContent() {
+            var searchText = document.getElementById("searchText").value.toLowerCase();
+            var sections = document.querySelectorAll("section");
+        
+            sections.forEach(function(section) {
+                var sectionText = section.textContent.toLowerCase();
+                if (sectionText.includes(searchText)) {
+                    window.location.href = "#" + section.id;
+                    return; // Stop searching once a match is found
+                }
+            });
+        }
+    </script>    
+</body>
+</html>
