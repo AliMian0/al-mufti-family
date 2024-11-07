@@ -131,7 +131,7 @@ body {
   position: relative;
   background: #1e2439;
   color: #363535;
-  font: 300 18px/24px 'Open Sans', sans-serif;
+  font: 400 20px/30px 'Open Sans', sans-serif;
 }
 .ic {
   border:0;
@@ -811,27 +811,7 @@ a.color1:hover {
   object-fit: cover;
 }
 
-* Styles for all devices */
-body {
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
 
-/* Styles for screens smaller than 768px */
-@media (max-width: 767px) {
-  h1 {
-    font-size: 24px;
-  }
-  .container_12 {
-    width: 100%;
-  }
-  .grid_12 {
-    float: none;
-    width: 100%;
-  }
-  /* Add more styles for smaller screens here */
-}
 
 
 
