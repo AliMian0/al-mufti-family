@@ -1,317 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><title>Gallary</title>
-<meta charset="utf-8">
+<head>
+<meta charset="UTF-8">
+<title>Gallery — Al-Mufti Mian Family</title>
+<meta name="description" content="Photos and videos from the Al-Mufti Mian family.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name = "format-detection" content = "telephone=no" />
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="stylesheet" href="css/style.css">
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/script.js"></script> 
-<script src="js/superfish.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/jquery.mobilemenu.js"></script>
-<script src="js/tmStickUp.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
-
-<script>
- $(window).load(function(){
-  $().UItoTop({ easingType: 'easeOutQuart' });
-  $('#stuck_container').tmStickUp({});  
- }); 
-</script>
-<!--[if lt IE 8]>
- <div style=' clear: both; text-align:center; position: relative;'>
-   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-   </a>
-</div>
-<![endif]-->
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-<![endif]-->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23172441'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='30' fill='%23b8863b' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
+<body>
 
-<body class="" id="top">
-<!--==============================
-              header
-=================================-->
-<header>
-  <div class="container_12">
-    <div class="grid_12">
-      <h1 class="logo">
-        <a href="index.html">
-          Al-Mufti
-          <span>Mian Family</span>
-        </a>
-      </h1>
-    </div>
-    <div class="clear"></div>
+<header class="site-header">
+  <div class="header-bar">
+    <a href="index.html" class="wordmark">
+      <span class="name">Al-Mufti</span>
+      <span class="tagline">Mian Family &middot; Muftian, Dina</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Family Tree</a></li>
+        <li class="current"><a href="mission.html">Gallery</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+      </ul>
+    </nav>
   </div>
-  <section id="stuck_container">
-  <!--==============================
-              Stuck menu
-  =================================-->
-    <div class="container_12">
-        <div class="grid_12">          
-          <div class="navigation ">
-            <nav>
-              <ul class="sf-menu">
-               <li><a href="index.html" style="font-size: 40px;font-weight: bold;">Home</a></li>
-               <li><a href="about.html" style="font-size: 40px;font-weight: bold;">Family Tree</a></li>
-               <li class="current"><a href="mission.html" style="font-size: 40px;font-weight: bold;">Gallary</a></li>
-               <li><a href="contacts.html" style="font-size: 40px;font-weight: bold;">Contacts</a></li>
-             </ul>
-            </nav>
-            <div class="clear"></div>
-          </div>       
-         <div class="clear"></div>  
-     </div> 
-     <div class="clear"></div>
-    </div> 
-  </section>
 </header>
-<!--=====================
-          Content
-======================-->
-<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - September22, 2014!</div>
-  <div class="container_12">
-    <div class="grid_12" style="text-align: center;">
-      <h2>Gallary</h2>
-    </div>
-  <div class="clear"></div>
+
+<section class="page-header">
+  <div class="wrap">
+    <p class="hero-kicker">Memories</p>
+    <h1>Photo &amp; Video Gallery</h1>
+    <p>Moments from the family, gathered in one place. Tap any tile to watch or view it in full.</p>
   </div>
-
-<!--==============================
-              video 
-=================================-->
-  <div class="container_12">
-    <div class="grid_12" style="text-align: center;" >
-      <h3 style="color: #5c627c;">Videos</h3>
-    </div>
-  <div class="clear"></div>
-  </div>
-  
-  <div class="video-gallery">
-    <div class="video-container">
-      <video controls>
-        <source src="video/1.mp4" type="video/mp4">
-      </video>
-    </div>
-  
-    <div class="video-container">
-      <video controls>
-        <source src="video/2.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/3.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/4.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/5.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/6.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>  
-
-
-
-  <div class="video-gallery">
-    <div class="video-container">
-      <video controls>
-        <source src="video/7.mp4" type="video/mp4">
-      </video>
-    </div>
-  
-    <div class="video-container">
-      <video controls>
-        <source src="video/8.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/9.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/10.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/11.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/12.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>  
-
-
-
-
-  <div class="video-gallery">
-    <div class="video-container" >
-      <video controls>
-        <source src="video/13.mp4" type="video/mp4">
-      </video>
-    </div>
-  
-    <div class="video-container">
-      <video controls>
-        <source src="video/14.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/15.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/16.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/17.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/18.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>  
-
-
-
-
-  <div class="video-gallery">
-    <div class="video-container">
-      <video controls>
-        <source src="video/19.mp4" type="video/mp4">
-      </video>
-    </div>
-  
-    <div class="video-container">
-      <video controls>
-        <source src="video/20.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/21.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/22.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/23.mp4" type="video/mp4">
-      </video>
-    </div>
-
-    <div class="video-container">
-      <video controls>
-        <source src="video/24.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>  
-
-
-
-  <div class="video-gallery">
-    <div class="video-container">
-      <video controls>
-        <source src="video/25.mp4" type="video/mp4">
-      </video>
-    </div>
-  
-    <div class="video-container">
-      <video controls>
-        <source src="video/26.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>  
-<!--==============================
-              images
-=================================-->
-
-  <div class="container_12">
-    <div class="grid_12" style="text-align: center;" >
-      <h3 style="color: #5c627c;">Images</h3>
-    </div>
-  <div class="clear"></div>
-  </div>
-
-  <div class="image-gallery">
-    <div class="image-container">
-      <a href="images/23.jpg">
-        <img src="images/23.jpg" alt="Image 1" class="image-thumbnail">
-      </a>    
-      </div>
-  </div> 
-  
-
 </section>
 
-
-<!--==============================
-              footer
-=================================-->
-<footer id="footer">
-  <div class="container_12">
-    <div class="grid_12"> 
-      <h1 class="logo">
-        <a href="index.html">
-          Al-Mufti
-        </a>
-      </h1>
-
-      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">Engr. Muhammad Ali Mian</a></div>
+<section class="section">
+  <div class="wrap">
+    <div class="gallery-tabs">
+      <button class="is-active" data-target="panel-videos">Videos <span style="opacity:.65;">(26)</span></button>
+      <button data-target="panel-images">Images <span style="opacity:.65;">(1)</span></button>
     </div>
-    <div class="clear"></div>
-  </div>  
+
+    <div id="panel-videos" class="gallery-panel is-active">
+      <div class="video-grid">
+          <div class="video-tile" data-video="video/1.mp4" tabindex="0" role="button" aria-label="Play family video 1">
+            <span class="tile-index">01</span>
+            <img src="assets/images/posters/1.jpg" alt="Family video 1 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/2.mp4" tabindex="0" role="button" aria-label="Play family video 2">
+            <span class="tile-index">02</span>
+            <img src="assets/images/posters/2.jpg" alt="Family video 2 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/3.mp4" tabindex="0" role="button" aria-label="Play family video 3">
+            <span class="tile-index">03</span>
+            <img src="assets/images/posters/3.jpg" alt="Family video 3 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/4.mp4" tabindex="0" role="button" aria-label="Play family video 4">
+            <span class="tile-index">04</span>
+            <img src="assets/images/posters/4.jpg" alt="Family video 4 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/5.mp4" tabindex="0" role="button" aria-label="Play family video 5">
+            <span class="tile-index">05</span>
+            <img src="assets/images/posters/5.jpg" alt="Family video 5 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/6.mp4" tabindex="0" role="button" aria-label="Play family video 6">
+            <span class="tile-index">06</span>
+            <img src="assets/images/posters/6.jpg" alt="Family video 6 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/7.mp4" tabindex="0" role="button" aria-label="Play family video 7">
+            <span class="tile-index">07</span>
+            <img src="assets/images/posters/7.jpg" alt="Family video 7 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/8.mp4" tabindex="0" role="button" aria-label="Play family video 8">
+            <span class="tile-index">08</span>
+            <img src="assets/images/posters/8.jpg" alt="Family video 8 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/9.mp4" tabindex="0" role="button" aria-label="Play family video 9">
+            <span class="tile-index">09</span>
+            <img src="assets/images/posters/9.jpg" alt="Family video 9 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/10.mp4" tabindex="0" role="button" aria-label="Play family video 10">
+            <span class="tile-index">10</span>
+            <img src="assets/images/posters/10.jpg" alt="Family video 10 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/11.mp4" tabindex="0" role="button" aria-label="Play family video 11">
+            <span class="tile-index">11</span>
+            <img src="assets/images/posters/11.jpg" alt="Family video 11 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/12.mp4" tabindex="0" role="button" aria-label="Play family video 12">
+            <span class="tile-index">12</span>
+            <img src="assets/images/posters/12.jpg" alt="Family video 12 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/13.mp4" tabindex="0" role="button" aria-label="Play family video 13">
+            <span class="tile-index">13</span>
+            <img src="assets/images/posters/13.jpg" alt="Family video 13 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/14.mp4" tabindex="0" role="button" aria-label="Play family video 14">
+            <span class="tile-index">14</span>
+            <img src="assets/images/posters/14.jpg" alt="Family video 14 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/15.mp4" tabindex="0" role="button" aria-label="Play family video 15">
+            <span class="tile-index">15</span>
+            <img src="assets/images/posters/15.jpg" alt="Family video 15 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/16.mp4" tabindex="0" role="button" aria-label="Play family video 16">
+            <span class="tile-index">16</span>
+            <img src="assets/images/posters/16.jpg" alt="Family video 16 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/17.mp4" tabindex="0" role="button" aria-label="Play family video 17">
+            <span class="tile-index">17</span>
+            <img src="assets/images/posters/17.jpg" alt="Family video 17 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/18.mp4" tabindex="0" role="button" aria-label="Play family video 18">
+            <span class="tile-index">18</span>
+            <img src="assets/images/posters/18.jpg" alt="Family video 18 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/19.mp4" tabindex="0" role="button" aria-label="Play family video 19">
+            <span class="tile-index">19</span>
+            <img src="assets/images/posters/19.jpg" alt="Family video 19 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/20.mp4" tabindex="0" role="button" aria-label="Play family video 20">
+            <span class="tile-index">20</span>
+            <img src="assets/images/posters/20.jpg" alt="Family video 20 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/21.mp4" tabindex="0" role="button" aria-label="Play family video 21">
+            <span class="tile-index">21</span>
+            <img src="assets/images/posters/21.jpg" alt="Family video 21 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/22.mp4" tabindex="0" role="button" aria-label="Play family video 22">
+            <span class="tile-index">22</span>
+            <img src="assets/images/posters/22.jpg" alt="Family video 22 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/23.mp4" tabindex="0" role="button" aria-label="Play family video 23">
+            <span class="tile-index">23</span>
+            <img src="assets/images/posters/23.jpg" alt="Family video 23 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/24.mp4" tabindex="0" role="button" aria-label="Play family video 24">
+            <span class="tile-index">24</span>
+            <img src="assets/images/posters/24.jpg" alt="Family video 24 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/25.mp4" tabindex="0" role="button" aria-label="Play family video 25">
+            <span class="tile-index">25</span>
+            <img src="assets/images/posters/25.jpg" alt="Family video 25 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+          <div class="video-tile" data-video="video/26.mp4" tabindex="0" role="button" aria-label="Play family video 26">
+            <span class="tile-index">26</span>
+            <img src="assets/images/posters/26.jpg" alt="Family video 26 thumbnail" loading="lazy">
+            <span class="play-badge"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></span>
+          </div>
+      </div>
+    </div>
+
+    <div id="panel-images" class="gallery-panel">
+      <div class="image-grid">
+        <div class="image-tile" data-full="assets/images/gravesite.jpg" tabindex="0" role="button" aria-label="View family graveyard photo">
+          <img src="assets/images/gravesite.jpg" alt="A resting place within the family graveyard bordering Muftian and Dina" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-content"></div>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <a href="index.html" class="name">Al-Mufti Mian Family</a>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Family Tree</a></li>
+          <li><a href="mission.html">Gallery</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="copyright-year"></span> Al-Mufti Mian Family, Muftian &middot; Dina. Maintained with care by Engr. Muhammad Ali Mian.
+    </div>
+  </div>
 </footer>
-<a href="#" id="toTop" class="fa fa-angle-up"></a>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
-
